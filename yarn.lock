@@ -1849,16 +1849,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@clerk/clerk-react@npm:3.5.1":
-  version: 3.5.1
-  resolution: "@clerk/clerk-react@npm:3.5.1"
+"@clerk/clerk-react@npm:4.12.8":
+  version: 4.12.8
+  resolution: "@clerk/clerk-react@npm:4.12.8"
   dependencies:
-    "@clerk/types": ^2.21.0
-    swr: ^1.3.0
-    tslib: ^2.3.1
+    "@clerk/shared": ^0.13.5
+    "@clerk/types": ^3.31.1
+    swr: 1.3.0
+    tslib: 2.4.1
   peerDependencies:
     react: ">=16"
-  checksum: bc0bc5261a263dbbab9d54558d5d819eaa22769a403e026996b827a62aedeb4d8f24284413e1751c29c5d2e7cbb529a8bd379cb2b1d87147f1fb9872c141d7ef
+  checksum: c7e8477c90c445c9399e35010f7ea1ce55b904be9f7e25b9943b58a4c71194f7d2521b902688dd3db7ccb3b0f41fe23000e502364aa4106ad19e5bb065a22b13
   languageName: node
   linkType: hard
 
@@ -1881,10 +1882,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@clerk/shared@npm:^0.13.5":
+  version: 0.13.5
+  resolution: "@clerk/shared@npm:0.13.5"
+  peerDependencies:
+    react: ">=16"
+  checksum: f10211c6e584b6c60867b8f70382eab0fe861a045de4c7edfe96e4cfd92850dd7adac55ffffa81e05fefcf47c8232e6958e7b347c3dc54d189310cb0f0cf2293
+  languageName: node
+  linkType: hard
+
 "@clerk/types@npm:2.21.0, @clerk/types@npm:^2.21.0":
   version: 2.21.0
   resolution: "@clerk/types@npm:2.21.0"
   checksum: 91c0a07459d6a11e8b79f8ebc31fa81c37a947313d67deb3a3d31519bf8b360ce8ac902d534fbd2f764cf382aa9e5a016398488da81dc72589e34daa04d3f48f
+  languageName: node
+  linkType: hard
+
+"@clerk/types@npm:^3.31.1":
+  version: 3.31.1
+  resolution: "@clerk/types@npm:3.31.1"
+  dependencies:
+    csstype: 3.1.1
+  checksum: 10ef9c2b047696cc8995d2d60b19bfa2296663554551e35d733d3faff5a04bd36c0659b9383861857527a8d4361c90fb5e90c9aac693eb9452c76984e602d958
   languageName: node
   linkType: hard
 
@@ -6212,7 +6231,7 @@ __metadata:
     "@babel/core": 7.19.1
     "@babel/runtime-corejs3": 7.19.1
     "@clerk/clerk-js": 3.17.0
-    "@clerk/clerk-react": 3.5.1
+    "@clerk/clerk-react": 4.12.8
     "@clerk/clerk-sdk-node": 3.9.2
     "@clerk/types": 2.21.0
     "@nhost/hasura-auth-js": 1.4.1
@@ -14063,10 +14082,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"csstype@npm:^3.0.2, csstype@npm:^3.0.6":
-  version: 3.0.10
-  resolution: "csstype@npm:3.0.10"
-  checksum: f0fff671ab368a863946859ad96be0be66afeb83566215d6494be840ffedfaef4945b48d1b0ce1a19f9983af772e0ce38c7be91a1ad46fe7ecd641937c5a99f7
+"csstype@npm:3.1.1, csstype@npm:^3.0.2, csstype@npm:^3.0.6":
+  version: 3.1.1
+  resolution: "csstype@npm:3.1.1"
+  checksum: 7c8b8c5923049d84132581c13bae6e1faf999746fe3998ba5f3819a8e1cdc7512ace87b7d0a4a69f0f4b8ba11daf835d4f1390af23e09fc4f0baad52c084753a
   languageName: node
   linkType: hard
 
@@ -29039,7 +29058,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swr@npm:^1.3.0":
+"swr@npm:1.3.0":
   version: 1.3.0
   resolution: "swr@npm:1.3.0"
   peerDependencies:
@@ -29847,17 +29866,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tslib@npm:2.4.1, tslib@npm:^2, tslib@npm:^2.0.0, tslib@npm:^2.0.1, tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.3.1, tslib@npm:^2.4.0, tslib@npm:~2.4.0":
+  version: 2.4.1
+  resolution: "tslib@npm:2.4.1"
+  checksum: 9ac0e4fd1033861f0b4f0d848dc3009ebcc3aa4757a06e8602a2d8a7aed252810e3540e54e70709f06c0f95311faa8584f769bcbede48aff785eb7e4d399b9ec
+  languageName: node
+  linkType: hard
+
 "tslib@npm:^1.8.1, tslib@npm:^1.9.0, tslib@npm:^1.9.2":
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: 69ae09c49eea644bc5ebe1bca4fa4cc2c82b7b3e02f43b84bd891504edf66dbc6b2ec0eef31a957042de2269139e4acff911e6d186a258fb14069cd7f6febce2
-  languageName: node
-  linkType: hard
-
-"tslib@npm:^2, tslib@npm:^2.0.0, tslib@npm:^2.0.1, tslib@npm:^2.0.3, tslib@npm:^2.1.0, tslib@npm:^2.3.0, tslib@npm:^2.3.1, tslib@npm:^2.4.0, tslib@npm:~2.4.0":
-  version: 2.4.0
-  resolution: "tslib@npm:2.4.0"
-  checksum: eb19bda3ae545b03caea6a244b34593468e23d53b26bf8649fbc20fce43e9b21a71127fd6d2b9662c0fe48ee6ff668ead48fd00d3b88b2b716b1c12edae25b5d
   languageName: node
   linkType: hard
 
