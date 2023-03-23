@@ -4932,6 +4932,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nhost/hasura-auth-js@npm:1.12.4":
+  version: 1.12.4
+  resolution: "@nhost/hasura-auth-js@npm:1.12.4"
+  dependencies:
+    "@simplewebauthn/browser": ^6.0.0
+    axios: ^1.2.0
+    js-cookie: ^3.0.1
+    jwt-decode: ^3.1.2
+    xstate: ^4.33.5
+  checksum: 416a212d6e52afb56a78bd2586ccce39c99ec6acf2fee3e5962c7e8a741e5ada6bc62adb14096ec36cc2b05a475487ec21718b6d1c66dba23acb59078e79946e
+  languageName: node
+  linkType: hard
+
 "@nhost/hasura-auth-js@npm:1.4.1":
   version: 1.4.1
   resolution: "@nhost/hasura-auth-js@npm:1.4.1"
@@ -6215,7 +6228,7 @@ __metadata:
     "@clerk/clerk-react": 3.5.1
     "@clerk/clerk-sdk-node": 3.9.2
     "@clerk/types": 2.21.0
-    "@nhost/hasura-auth-js": 1.4.1
+    "@nhost/hasura-auth-js": 1.12.4
     "@nhost/nhost-js": 1.4.10
     "@okta/okta-auth-js": 6.7.6
     "@simplewebauthn/browser": 6.0.0
@@ -6841,6 +6854,13 @@ __metadata:
   version: 6.0.0
   resolution: "@simplewebauthn/browser@npm:6.0.0"
   checksum: 4fef4765e75ccaec7695214c75bcd57346ad286e2b57b2fff0e3a7e307b48dd61d11669c5856e7a96e65801f5b3791a7cdc0831f188c8d5db9a9b74c3ba03e97
+  languageName: node
+  linkType: hard
+
+"@simplewebauthn/browser@npm:^6.0.0":
+  version: 6.2.2
+  resolution: "@simplewebauthn/browser@npm:6.2.2"
+  checksum: 9863a954709f151a32a35bf370e33a2dc18f94cb55e8b8af96b557431952689df4cd857e130b07d1b069b1a6ab86b697d4264c46a59c3332b86708d853c92187
   languageName: node
   linkType: hard
 
@@ -11001,6 +11021,17 @@ __metadata:
     follow-redirects: ^1.14.9
     form-data: ^4.0.0
   checksum: 76d673d2a90629944b44d6f345f01e58e9174690f635115d5ffd4aca495d99bcd8f95c590d5ccb473513f5ebc1d1a6e8934580d0c57cdd0498c3a101313ef771
+  languageName: node
+  linkType: hard
+
+"axios@npm:^1.2.0":
+  version: 1.3.4
+  resolution: "axios@npm:1.3.4"
+  dependencies:
+    follow-redirects: ^1.15.0
+    form-data: ^4.0.0
+    proxy-from-env: ^1.1.0
+  checksum: 39f03d83a9ed5760094f92a677af2533ab159448c8e22bfba98d8957bdef2babe142e117a0a7d9a5aff1d5f28f8ced28eb0471b6a91d33410375c89e49032193
   languageName: node
   linkType: hard
 
@@ -16957,13 +16988,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.14.0, follow-redirects@npm:^1.14.9":
-  version: 1.15.1
-  resolution: "follow-redirects@npm:1.15.1"
+"follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.14.0, follow-redirects@npm:^1.14.9, follow-redirects@npm:^1.15.0":
+  version: 1.15.2
+  resolution: "follow-redirects@npm:1.15.2"
   peerDependenciesMeta:
     debug:
       optional: true
-  checksum: ea21337fe38eac8d75f5af12c425cc40e0bb44dcc3091fd0bde1c828596251a7a9638b5720fee5a0a5c62524450cbe16c52aae1dce88c6aee68577e441842e7f
+  checksum: da5932b70e63944d38eecaa16954bac4347036f08303c913d166eda74809d8797d38386e3a0eb1d2fe37d2aaff2764cce8e9dbd99459d860cf2cdfa237923b5f
   languageName: node
   linkType: hard
 
@@ -31889,10 +31920,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"xstate@npm:^4.32.1":
-  version: 4.32.1
-  resolution: "xstate@npm:4.32.1"
-  checksum: 120ecac3e0310c43dc3a5edb87512cf8bcf81c5ca4ce0f53d50c0508e5fa9ab56ea954e600af908e1bbd1bfe0601a09efbaa0044b80113b5bad4bbb6fb2d4424
+"xstate@npm:^4.32.1, xstate@npm:^4.33.5":
+  version: 4.37.1
+  resolution: "xstate@npm:4.37.1"
+  checksum: 37227f0a031bc7819cf66a49a5ec4284be05c005376075b4990aafd870341a87191049a0529db567f6c7e5100f4f1e82f3eba166283af6f78a6035c97a5c0db3
   languageName: node
   linkType: hard
 
